@@ -3,6 +3,11 @@ body {
     color: #121212;
 }
 
+b {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
 #title {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
@@ -94,4 +99,26 @@ body {
 
 .sign-up-button:active {
     box-shadow: none;
+}
+
+/* ATTENTION part */
+
+#information-box {
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%);
+    background: #9ABD97;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #6465367e;
+}
+
+#attention-text {
+    font-size: 30px;
+    padding: 15px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
