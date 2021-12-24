@@ -50,7 +50,7 @@ a {
 #menu-div {
     background: #9ABD97;
     width: 300px;
-    height: 300px;
+    height: 450px;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -76,7 +76,7 @@ a {
 #menu-job-street-cleaner {
     background: #BBBE64;
     color: white;
-    width: 48%;
+    width: 86%;
     padding: 10px;
     border: solid 1px #646536;
     border-radius: 10px;
@@ -89,7 +89,7 @@ a {
 #menu-job-uber-driver {
     background: #BBBE64;
     color: white;
-    width: 60%;
+    width: 86%;
     padding: 10px;
     border: solid 1px #646536;
     border-radius: 10px;
@@ -102,7 +102,7 @@ a {
 #menu-job-help-the-neighbor {
     background: #BBBE64;
     color: white;
-    width: 55%;
+    width: 86%;
     padding: 10px;
     border: solid 1px #646536;
     border-radius: 10px;
@@ -115,13 +115,13 @@ a {
 #menu-job-flyer-seller {
     background: #BBBE64;
     color: white;
-    width: 35%;
+    width: 86%;
     padding: 10px;
     border: solid 1px #646536;
     border-radius: 10px;
     position: absolute;
-    top: 25%;
-    left: 58%;
+    top: 70%;
+    left: 7%;
     font-size:medium;
 }
 
@@ -133,7 +133,7 @@ a {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 10px;
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, 0);
     font-size:medium;
@@ -145,7 +145,7 @@ a {
     height: 100px;
     position: absolute;
     left: 50%;
-    top: 90%;
+    top: 110%;
     border-radius: 20px;
     transform: translate(-50%, 0);
     box-shadow: 10px 10px 10px #6465367e;
