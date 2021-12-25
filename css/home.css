@@ -1,7 +1,7 @@
 body {
     background: #FFEAEC;
     color: #121212;
-    height: 1200px;
+    height: max-content;
 }
 
 #title-text {
@@ -18,6 +18,7 @@ a {
     width: 350px;
     height: 150px;
     position: absolute;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 20px;
@@ -54,7 +55,7 @@ a {
     border-radius: 20px;
     position: absolute;
     left: 50%;
-    top: 35%;
+    top: 45%;
     transform: translate(-50%, 0);
     box-shadow: 10px 10px 10px #6465367e;
     border: 1px solid #646536;
@@ -79,7 +80,7 @@ a {
     width: 350px;
     height: 370px;
     position: absolute;
-    top: 67%;
+    top: 82%;
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 20px;
@@ -172,7 +173,7 @@ a {
     height: 100px;
     position: absolute;
     left: 50%;
-    top: 120%;
+    top: 145%;
     border-radius: 20px;
     transform: translate(-50%, 0);
     box-shadow: 10px 10px 10px #6465367e;
