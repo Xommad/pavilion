@@ -15,7 +15,7 @@ a {
 
 #character-stats-div {
     background: #9ABD97;
-    width: 300px;
+    width: 350px;
     height: 150px;
     position: absolute;
     left: 50%;
@@ -49,7 +49,7 @@ a {
 
 #menu-div {
     background: #9ABD97;
-    width: 300px;
+    width: 350px;
     height: 350px;
     position: absolute;
     top: 40%;
@@ -141,11 +141,11 @@ a {
 
 #contacts-div {
     background: #9ABD97;
-    width: 300px;
+    width: 350px;
     height: 100px;
     position: absolute;
     left: 50%;
-    top: 110%;
+    top: 98%;
     border-radius: 20px;
     transform: translate(-50%, 0);
     box-shadow: 10px 10px 10px #6465367e;
