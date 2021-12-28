@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/home.css">
+        <script src="js/index.js"></script>
         <title>Home | Pavilion</title>
     </head>
     <body>
@@ -15,11 +16,9 @@
             <h1 id="username-text">
                 Irishezio
             </h1>
-            <p id="money-text">
-                Money: 100$
-            </p>
+            <p onclick="updateWallet()" id="money-amount">Money: 0$</p>
         </div>
-        <div id="newspaper-div">
+        <div onclick="openNewspaper()" id="newspaper-div">
             <h1 id="newspaper-title">
                 Read our weekly updated newspaper!
             </h1>
@@ -31,7 +30,7 @@
             <p id="menu-job-text">
                 Avaiable jobs
             </p>
-            <button id="menu-job-street-cleaner">
+            <button onclick="job()" id="menu-job-street-cleaner">
                 Clean the streets
             </button>
             <button id="menu-job-uber-driver">
